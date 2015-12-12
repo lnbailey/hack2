@@ -2,13 +2,15 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
 }
-h1 {
+.title {
   font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
 }
-h2 {
+.price {
   font-family: 'Anton', sans-serif;
+  font-size: 1.3em;
 }
-h3 {
+.author {
   font-size: .9em;
   font-style: italic;
 }
@@ -52,8 +54,19 @@ footer {
   text-align: center;
   margin: 0px;
   padding: 20px;
+  clear: both;
 }
 #container {
   width: 960px;
   margin: 0 auto;
+}
+#book1 {
+  width: 43%;
+  float: left;
+  padding: 3%;
+}
+#book2 {
+  width: 43%;
+  float: right;
+  padding: 3%;
 }
