@@ -1,0 +1,41 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #CCCCCC;
+}
+nav {
+  background-color: #666666;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 50px
+}
+nav a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+header {
+  background-color: #333333;
+  color: #CCCCCC;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  width: 100%;
+  padding: 20px;
+  text-align:center;
+  margin: 0px;
+}
